@@ -17,4 +17,4 @@ COPY files/entrypoint /
 
 EXPOSE 22
 
-ENTRYPOINT ["/entrypoint"]
+ENTRYPOINT ["/entrypoint foo:pass:1001:101:IN,ERRORS,ARCHIVE,REJECTED,ABORTED"]
